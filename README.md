@@ -1,4 +1,4 @@
-# isbetween
+# isbetweennumbers
 
 
 
@@ -12,7 +12,7 @@ A simple package to check if a number is between
 
 ```bash
 
-npm install isbetween
+npm install isbetweennumbers
 
 ```
 
@@ -26,7 +26,7 @@ npm install isbetween
 
 import isbetweennumbers from 'isbetweennumbers';
 
-value: number, lowerBound: number, upperBound: number
+//value: number, lowerBound: number, upperBound: number
 
 isbetweennumbers(3, 1, 5); // true
 
@@ -68,21 +68,6 @@ npm test
 npm run build
 
 ```
-
-
-## Publishing
-
-
-
-1. Update version in `package.json`
-
-2. Build the package: `npm run build`
-
-3. Run tests: `npm test`
-
-4. Publish to npm: `npm publish`
-
-
 
 ## License
 
