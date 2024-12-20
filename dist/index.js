@@ -6,7 +6,7 @@ exports.isbetween = isbetweennumbers;
 
 function isbetweennumbers(value, lowerBound, upperBound) {
 
-    return num > lowerBound && num < upperBound;
+    return value > lowerBound && value < upperBound;
 
 }
 

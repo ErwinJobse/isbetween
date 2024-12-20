@@ -1,6 +1,6 @@
 {
   "name": "isbetweennumbers",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple package to check if a number is between",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
