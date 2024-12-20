@@ -1,3 +1,3 @@
-export declare function isBetween(value: number, lowerBound: number, upperBound: number): boolean;
+export declare function isbetweennumbers(value: number, lowerBound: number, upperBound: number): boolean;
 
-export default isBetween;
+export default isbetweennumbers;

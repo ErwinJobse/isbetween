@@ -24,14 +24,14 @@ npm install isbetween
 
 ```typescript
 
-import isbetween from 'isbetween';
+import isbetweennumbers from 'isbetweennumbers';
 
 value: number, lowerBound: number, upperBound: number
 
-isbetween(3, 1, 5); // true
+isbetweennumbers(3, 1, 5); // true
 
 
-isbetween(7, 1, 5); // false
+isbetweennumbers(7, 1, 5); // false
 
 ```
 
@@ -40,7 +40,7 @@ isbetween(7, 1, 5); // false
 
 
 
-### `isbetween(value: number, lowerBound: number, upperBound: number): boolean`
+### `isbetweennumbers(value: number, lowerBound: number, upperBound: number): boolean`
 
 
 

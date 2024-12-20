@@ -2,12 +2,12 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 
-exports.isbetween = isbetween;
+exports.isbetween = isbetweennumbers;
 
-function isbetween(value, lowerBound, upperBound) {
+function isbetweennumbers(value, lowerBound, upperBound) {
 
     return num > lowerBound && num < upperBound;
 
 }
 
-exports.default = isbetween
+exports.default = isbetweennumbers
