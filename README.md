@@ -26,7 +26,7 @@ npm install isbetween
 
 import isbetween from 'isbetween';
 
-
+value: number, lowerBound: number, upperBound: number
 
 isbetween(3, 1, 5); // true
 
@@ -40,7 +40,7 @@ isbetween(7, 1, 5); // false
 
 
 
-### `isbetween(num: number, num: number, num: number): boolean`
+### `isbetween(value: number, lowerBound: number, upperBound: number): boolean`
 
 
 
